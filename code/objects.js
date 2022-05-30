@@ -28,9 +28,8 @@ tortoise = {
  * Q1. What's the name of the dog?
  */
 
-dogName = dog.name;
-
-console.log("The dog's name is " + dogName);
+// dogName = dog.name;
+// console.log("The dog's name is " + dogName);
 
 
 
@@ -38,9 +37,9 @@ console.log("The dog's name is " + dogName);
  * Q2. What breed is the cat?
  */
 
-catBreed = null;
+catBreed = cat.breed;
 
-// console.log("The cat is a " + catBreed);
+console.log("The cat is a " + catBreed);
 
 
 
