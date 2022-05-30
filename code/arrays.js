@@ -49,6 +49,10 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
  * Someone put the wrong Berwick on the timetable! Update "North Berwick" to "Berwick-upon-Tweed".
  */
 
+// (2, 1, "Berwick-upon-Tweed")
+// 2 -> starting position to delete
+// 1 -> number of items to delete
+// "Berwick-upon-Tweed" -> change
 stations.splice(2, 1, "Berwick-upon-Tweed");
 console.log(stations);
 
