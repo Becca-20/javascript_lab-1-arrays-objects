@@ -67,8 +67,8 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
 // 5 -> position of element
 // 1 -> number of elements to delete
 
-stations.splice(5, 1)
-console.log(stations);
+// stations.splice(5, 1)
+// console.log(stations);
 
 
 
@@ -77,7 +77,11 @@ console.log(stations);
  * We forgot about Darlington! Add it to the route between Newcastle and York.
  */
 
-// console.log(stations);
+// 4 -> the index of where you want it to be
+// 0 -> not deleting anything
+
+stations.splice(4, 0, "Darlington");
+console.log(stations);
 
 
 
