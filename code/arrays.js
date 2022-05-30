@@ -90,11 +90,19 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
  * Is Durham one of the stops?
  */
 
-stoppingAtDurham = stations.includes("Durham");
-console.log(stoppingAtDurham);
+// stoppingAtDurham = stations.includes("Durham");
+// console.log(stoppingAtDurham);
 
 
 /**
  * Q9.
  * If we are stopping at Durham, print "Yay Durham!" to the terminal. If not print "Aww...".
  */
+
+for (i = 0; i < stations.length; i++) {
+    if (item === "Durham") {
+        console.log("Yay, Durham!");
+    } else {
+        console.log("Aww...");
+    }
+}
