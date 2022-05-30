@@ -80,8 +80,8 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
 // 4 -> the index of where you want it to be
 // 0 -> not deleting anything
 
-stations.splice(4, 0, "Darlington");
-console.log(stations);
+// stations.splice(4, 0, "Darlington");
+// console.log(stations);
 
 
 
@@ -90,9 +90,8 @@ console.log(stations);
  * Is Durham one of the stops?
  */
 
-stoppingAtDurham = null;
-
-// console.log(stoppingAtDurham);
+stoppingAtDurham = stations.includes("Durham");
+console.log(stoppingAtDurham);
 
 
 /**
