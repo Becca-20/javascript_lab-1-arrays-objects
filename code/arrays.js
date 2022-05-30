@@ -39,9 +39,8 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
  * Which station is the third stop?
  */
 
-thirdStation = stations[2];
-
-console.log("The third station is " + thirdStation);
+// thirdStation = stations[2];
+// console.log("The third station is " + thirdStation);
 
 
 
@@ -50,7 +49,8 @@ console.log("The third station is " + thirdStation);
  * Someone put the wrong Berwick on the timetable! Update "North Berwick" to "Berwick-upon-Tweed".
  */
 
-// console.log(stations);
+stations.splice(2, 1, "Berwick-upon-Tweed");
+console.log(stations);
 
 
 
