@@ -9,8 +9,8 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
  * The East Coast Main Line doesn't stop at Peterborough! Add London Kings Cross to the end of the array to complete the line.
  */
 
-stations.push("London Kings Cross");
-console.log(stations);
+// stations.push("London Kings Cross");
+// console.log(stations);
 
 
 
@@ -19,7 +19,8 @@ console.log(stations);
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
  */
 
-// console.log(stations);
+stations.shift("Dundee");
+console.log(stations);
 
 
 
