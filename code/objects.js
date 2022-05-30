@@ -46,8 +46,8 @@ tortoise = {
  * Q3. It's the tortoise's birthday! Add one to her current age.
  */
 
-tortoise.age++
-console.log(tortoise)
+// tortoise.age++
+// console.log(tortoise)
 
 
 
@@ -55,9 +55,9 @@ console.log(tortoise)
  * Q4. How many different colours is Poppy?
  */
 
-dogColourCount = null;
+dogColourCount = Object.keys(dog.colours).length;
 
-// console.log("The dog has " + dogColourCount + " different colours");
+console.log("The dog has " + dogColourCount + " different colours");
 
 
 
