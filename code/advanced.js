@@ -41,9 +41,9 @@ unitedKingdom = [
 /**
  * Q1. Add some tourist attractions to England
  */
-unitedKingdom[1].touristAttractions = ["London Eye", "Big Ben"]
+// unitedKingdom[1].touristAttractions = ["London Eye", "Big Ben"]
 
-console.log(unitedKingdom[1]);
+// console.log(unitedKingdom[1]);
 
 
 
@@ -51,9 +51,9 @@ console.log(unitedKingdom[1]);
  * Q2. Change the capital of Wales to "Cardiff"
  */
 
-wales = null;
+unitedKingdom[2].capital = "Cardiff"
 
-// console.log(wales);
+console.log(unitedKingdom[2]);
 
 
 
