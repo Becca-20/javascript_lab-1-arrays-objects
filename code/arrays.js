@@ -53,8 +53,9 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
 // 2 -> starting position to delete
 // 1 -> number of items to delete
 // "Berwick-upon-Tweed" -> change
-stations.splice(2, 1, "Berwick-upon-Tweed");
-console.log(stations);
+
+// stations.splice(2, 1, "Berwick-upon-Tweed");
+// console.log(stations);
 
 
 
@@ -63,7 +64,11 @@ console.log(stations);
  * How did Leeds get on there? Better remove it.
  */
 
-// console.log(stations);
+// 5 -> position of element
+// 1 -> number of elements to delete
+
+stations.splice(5, 1)
+console.log(stations);
 
 
 
